@@ -1,0 +1,141 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}               % IEEE numeric citations
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning, fit, arrows.meta, shapes}
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+
+\newcommand{\empt}[2]{$#1^{\langle #2 \rangle}$}
+
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Transformation of BRI Bank Business Model through the BRIAPI Open Banking Product Line \\
+\thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Samuel Mualatua Jeremy N}
+	\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+		\textit{name of organization (of Aff.)}\\
+		City, Country \\
+		email address or ORCID}
+	\and
+    \IEEEauthorblockN{2\textsuperscript{nd} Jose Galbraith Hasintongan}
+	\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+		\textit{name of organization (of Aff.)}\\
+		City, Country \\
+		email address or ORCID}
+	\and
+	\IEEEauthorblockN{3\textsuperscript{rd} Muhammad Firdaus}
+	\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+		\textit{name of organization (of Aff.)}\\
+		City, Country \\
+		email address or ORCID}
+	\and
+	\IEEEauthorblockN{4\textsuperscript{th} Jon Felix Germinian}
+	\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+		\textit{name of organization (of Aff.)}\\
+		City, Country \\
+		email address or ORCID}
+}
+
+
+\maketitle
+
+\begin{abstract}
+Bank Rakyat Indonesia (BRI) is one of the largest banks in Indonesia, with a strong focus on the MSME segment and conventional banking services. As the digital ecosystem continues to evolve, BRI faces the need to expand its service reach and collaborate with various external partners. In response, BRI launched BRIAPI, an open banking product line based on Application Programming Interface (API) technology that enables the integration of banking services directly into fintech, e-commerce, and other digital partner platforms. The implementation of BRIAPI has driven BRI’s business model transformation from a traditional banking service provider to a monetizable financial infrastructure provider. This transformation opens opportunities for new revenue streams, expands customer access, and strengthens BRI’s position as an enabler in the national digital financial ecosystem. This study aims to analyze how the utilization of information technology through BRIAPI drives changes in BRI’s business model and its implications for sustainable growth strategies. This study employs a qualitative, literature-based approach supported by comparative analysis with similar open banking initiatives in both domestic and international banking institutions. Data were gathered exclusively from publicly available sources such as journal articles, conference papers, and regulatory publications. Through descriptive and comparative analysis, the study aims to identify how open banking contributes to BRI’s business model transformation.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Business Model Transformation, Open Banking, BRIAPI, API, Digital Ecosystem
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+Technology has changed the way many industries work, and banking is one of the sectors that feels the impact the most \cite{lumbantobing2025evolving}. With the rise of smartphones, mobile apps, and online platforms, people now expect banking services to be faster, easier, and more connected to the digital tools they use every day. This has pushed banks to move away from relying only on branches and physical services, and to start opening their systems through digital solutions. One of the biggest trends in this area is open banking, where banks use Application Programming Interfaces (APIs) to connect their services with other companies like fintech companies, e-commerce, or ride-hailing apps.
+
+In Indonesia, the growth of digital economy and high internet usage are strong drivers for open banking. Regulators such as Bank Indonesia (BI) and the Financial Services Authority (OJK) also encourage banks to adopt more digital innovations. Bank Rakyat Indonesia (BRI), as the biggest bank in Indonesia with millions of customers, has taken an important step by launching BRIAPI, its open banking platform \cite{pertiwi2024role,mulyana2024key}. Through BRIAPI, third parties can connect directly to BRI services such as account information, payments, and virtual accounts. This makes BRI not only a traditional bank but also a digital partner for many businesses.
+
+Before BRIAPI, BRI’s strength was its wide branch and agent network across Indonesia, which helped it serve customers even in rural areas \cite{mulyana2024key}. But this model alone is no longer enough in the digital era, where most customers prefer services that are simple and available online. By creating BRIAPI, BRI has transformed its business model from focusing mainly on branch-based services to becoming part of the digital ecosystem.
+
+Related to the explanation, BRI is one of the banks in Indonesia that has successfully used technology to support its business strategy by changing its business model to fit the digital era. The launch of BRIAPI shows how BRI is adapting to new customer needs and competition. This paper aims to explain the main impacts of digital transformation on BRI's business model. It gives a practical view of the current situation and the factors that drive changes in the way BRI runs its business.
+
+\section{Literature Review}
+
+
+\subsection{Digital Transformation in Banking }
+
+The global banking sector is undergoing a shift in the digital era. The advent of information and communication technology has forced a departure from traditional, branch-based banking models toward integrated, digital-first ecosystems \cite{osei2023unlocking}. This digital shift affects all aspects of the baking industry, from back-office operations and risk management to customer engagement and service delivery.
+
+The banking industry, once a bastion of tradition, now faces disruptive pressures from multiple fronts:
+
+\begin{enumerate}
+    \item Evolving Customer Expectations: Customers of the modern era now demand faster, easier, and more connected banking experiences through their smartphones and online platforms
+    \item The FinTech Challenge: FinTech firms and neobanks, leverage agile technology and customer-centric models. Nearly 90\% of banks fear losing business to these agile competitors \cite{osei2023unlocking}. These FinTech companies and new digital banks have become significant rivals in areas like digital payments and peer-to-peer lending \cite{alqararah2025role}
+    \item Regulatory Shifts: New rules are being introduced, like PSD2 (Payment Services Directive 2) and Open Banking. These changes are breaking down old barriers and require big banks to work with other companies and service providers \cite{alqararah2025role}.
+\end{enumerate}
+
+For traditional banks, digital transformation is an essential journey to stay competitive in the industry \cite{alqararah2025role}. This change isn't just about making things digital; it's about completely changing how the bank operates and how it makes money \cite{alqararah2025role}.
+
+
+\subsection{Open Banking}
+
+Open banking is a major development in modern financial services. It allows bank customers to share their transaction data with other banks or fintechs through secure channels, usually via Application Programming Interfaces (APIs). This concept shifts the control of financial data from banks to customers, reducing the monopoly banks traditionally held over data. With customer permission, fintechs or other providers can use transaction data to offer services such as financial advice, lending, payments, or identity verification.
+
+A recent global study finds that as of 2021, 80 countries had taken steps toward open banking, and 49 had adopted formal policies. Regulators usually promote open banking to encourage innovation, competition, and financial inclusion. For example, the UK’s open banking initiative showed clear benefits: consumers gained better access to advice and credit, while small businesses (SMEs) formed new lending relationships with fintech lenders. At the same time, venture capital investment in fintechs surged after OB policies were introduced, showing how open banking encourages new entrants and innovation in financial services.
+
+The benefits of open banking depend on whether customers are willing to share their financial data and on how firms use this data. If used for financial advice, OB often increases welfare by enabling more customized products. If used for lending, OB can improve screening and reduce adverse selection, but it may also raise challenges for customers with weaker credit histories. Privacy preferences therefore play a central role in shaping outcomes.
+
+In short, open banking represents a shift in the financial industry’s structure. It moves banks from being exclusive holders of customer data to being part of a more open and competitive ecosystem. While it creates opportunities for new services and financial inclusion, it also introduces new responsibilities in terms of privacy, security, and regulation.
+
+\subsection{Previous Research}
+
+The previous analysis has outlined the key factors transforming the current banking environment. A clear trajectory emerges: the digital transformation imperative \cite{alawi2023impact} is compelling for banks to evolve, with open banking \cite{araluze2022open} acting as a primary catalyst that leverages the API economy \cite{westerman2021api} to enable fundamental business model transformation. The literature extensively documents the theoretical potential of open APIs to shift banks from product-centric entities to platform-based ecosystems, creating new revenue streams and enhancing competition \cite{westerman2021api}. Furthermore, empirical evidence from mature markets like the UK and the EU demonstrates the tangible outcomes of such policies, including increased fintech innovation, improved credit access for SMEs, and greater consumer choice \cite{colangelo2025global}.
+
+However, a critical examination of the existing literature reveals a significant geographical and contextual bias. Most of the scholarly and industry analysis focuses on open banking models in developed, regulatory-driven economies such as Europe (under PSD2) and the United Kingdom \cite{araluze2022open}. While these studies offer a useful foundation, their results are not always easily applied to the social and economic situations in emerging markets. In countries like Indonesia, open banking efforts are usually driven by the market or follow a mixed approach, where traditional banks lead the way due to competition and the country's push for digital transformation, as demonstrated by Bank Indonesia's SNAP framework.
+
+This context illuminates a clear research gap. There is a scarcity of academic case studies that investigate:
+\begin{itemize}
+    \item How large, incumbent banks in emerging markets, particularly those with a foundational focus on specific segments like MSMEs (Micro, Small, and Medium Enterprises), strategically implement open API platforms to drive their business model transformation.
+    \item The specific mechanisms and strategic choices involved in this transition from a traditional service provider to a monetizable financial infrastructure provider.
+\end{itemize}
+
+\section{Methodology}
+
+This paper uses a qualitative method based on existing literature to examine how Bank Rakyat Indonesia (BRI) has changed its business model through its BRIAPI open banking initiative. The analysis focuses on how open banking influences BRI’s value proposition, key activities, and revenue streams. To strengthen the analysis, the study includes comparative observations with similar initiatives undertaken by other banks.
+
+\subsection{Data Collection Method}
+
+The study uses only secondary data from publicly accessible documents. The data will be collected from these sources:
+
+\begin{enumerate}
+    \item Academic Literature: Articles published in journals that focus on digital transformation in the banking industry, open banking, and the API economy.
+    \item Industry and Regulatory Reports: Publications from Bank Indonesia (BI), the Financial Services Authority (OJK), and other financial organizations in Indonesia.
+    \item Corporate Publications: Official reports, press releases, white papers, and presentations from BRI that explain the introduction, features, and strategic goals of BRIAPI.
+    \item Financial News: Articles from reliable financial news websites.
+\end{enumerate}
+
+\subsection{Data Analysis Technique}
+
+The data was analyzed using two main methods:
+
+\begin{enumerate}
+    \item Descriptive Analysis: This method involved combining information from the different sources to create a comprehensive overview of BRI’s digital transformation. The focus was on identifying the main factors driving the change, the role of BRIAPI in the strategy, and the specific changes made to BRI’s value proposition, revenue streams, and position in the digital marketplace.
+    \item Comparative Analysis: To place BRI’s experience within a broader context, the findings will be compared with similar open banking initiatives in other banks, both within Indonesia and globally, such as banks in the UK and EU under the PSD2 regulation.
+\end{enumerate}
+
+% ---------- Bibliography ----------
+\bibliographystyle{IEEEtran}
+\bibliography{references}  % references.biba must be in same folder
+
+\end{document}
