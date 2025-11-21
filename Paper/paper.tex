@@ -53,11 +53,13 @@
 \maketitle
 
 \begin{abstract}
-This paper examines how information technology (IT) has transformed the business model of PT Bank Jago Tbk, which was previously known as Bank Artos. Following its acquisition, the former Bank Artos was redesigned and relaunched as Bank Jago, evolving from a small traditional bank into a fully digital, ecosystem-based bank. Using a descriptive qualitative approach, this study analyzes how IT has changed the bank’s value creation, customer acquisition, and revenue structure. The paper also compares Bank Jago with similar companies in Indonesia and abroad, including Bank Jenius and Kakao Bank.
+	This paper analyzes the business model transformation of Bank Artos into Bank Jago, examining how Information Technology shifted its strategic positioning from a traditional commercial bank to a digital ecosystem-based bank.
+	The study employs a qualitative descriptive approach with a single-case study design. Data was triangulated from annual reports, financial statements, and technical documentation from 2018 to 2024. The analysis utilizes Applegate’s Business Model Framework and Savage’s Management Generations to categorize strategic shifts.
+	The findings indicate that IT enabled Bank Jago to transition from a rigid Generation 3 hierarchy to an agile Generation 5 network, fundamentally altering its cost structure and reducing its BOPO ratio from 258\% to sustainable levels. Unlike competitors that focus on standalone digital apps, Bank Jago’s transformation is distinct in its "embedded finance" strategy, leveraging deep integration with the GoTo ecosystem to acquire customers, differentiating it from the direct-to-consumer models of Bank Jenius and KakaoBank.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Bank Jago, Bank Artos, digital transformation, business model
+	Bank Jago, Bank Artos, digital transformation, business model, embedded finance
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -326,6 +328,52 @@ In the Product Expansion quadrant (New Product, Same Market), KakaoBank introduc
 In the Business Exploration quadrant (New Product, New Market), KakaoBank entered new financial business areas by offering a securities brokerage service. As described in the paper, KakaoBank expanded beyond its existing product categories and moved into the securities market, representing both a new product line and a new customer segment. This shift reflects exploratory activities that extend the bank’s business model beyond conventional retail banking \cite{choi2020digital}.
 
 
+\section{Comparative Synthesis}
+
+To understand the unique position of Bank Jago within the digital banking landscape, it is necessary to synthesize the findings by comparing it with Bank Jenius (Indonesia) and KakaoBank (South Korea). While all three entities utilized IT to move into the "Business Exploration" quadrant of the product-market grid, their underlying strategic drivers and architectural approaches differ significantly.
+
+\subsection{Strategic Positioning: Standalone vs. Embedded}
+
+The primary distinction lies in customer acquisition strategy. 
+\begin{itemize}
+	\item \textbf{Bank Jenius} adopts a "Lifestyle Banking" approach. It operates primarily as a B2C (Business to Consumer) standalone app, relying on product innovation (e.g., Flexi Saver, foreign currency cards) to attract users directly to its platform.
+	\item \textbf{KakaoBank} utilizes a "Platform Leverage" strategy. It was born out of a dominant social messaging platform (KakaoTalk). It converts existing social users into banking users by minimizing friction in the user interface.
+	\item \textbf{Bank Jago} pursues an "Embedded Finance" strategy. Unlike Jenius, Jago does not rely solely on its own app as the destination. Instead, it embeds its services into other platforms (Gojek, Bibit, Stockbit). Jago functions as the "financial utility" layer behind these ecosystems.
+\end{itemize}
+
+\subsection{Infrastructure and Agility}
+
+From an IT perspective, Bank Jago's transformation is the most radical regarding infrastructure. Bank Jenius was incubated within BTPN, initially relying on a hybrid of legacy and new systems. In contrast, Bank Jago (formerly Artos) completely discarded its legacy core to adopt a cloud-native SaaS core (Mambu) hosted on Google Cloud. This allows for a higher degree of composability compared to traditional digital banking arms.
+
+\begin{table}[htbp]
+	\caption{Strategic Comparison of Jago, Jenius, and KakaoBank}
+	\label{tab:comparison_synthesis}
+	\begin{tabular}{|p{2cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}|}
+		\hline
+		\textbf{Dimension} & \textbf{Bank Jago} & \textbf{Bank Jenius} & \textbf{KakaoBank} \\ \hline
+		\textbf{Origin} & Transformation of Legacy Bank (Artos) & Internal Digital Spinoff (BTPN) & Internet-Only Bank License \\ \hline
+		\textbf{Primary Channel} & Embedded in Ecosystems (Gojek/Bibit) & Standalone Mobile App & Integrated via Social Platform (KakaoTalk) \\ \hline
+		\textbf{IT Architecture} & Cloud-Native (Mambu/GCP) & Hybrid Digital Core & Mobile-First Proprietary Stack \\ \hline
+		\textbf{Value Proposition} & Life-Centric (Invisible Banking) & Life-Finance Management & Social \& Convenient Banking \\ \hline
+		\textbf{Business Model Focus} & B2B2C (Partnership) & B2C (Direct) & B2C (Platform) \\ \hline
+	\end{tabular}
+\end{table}
+
+Table \ref{tab:comparison_synthesis} summarizes these differences. While Jenius and KakaoBank focus on optimizing the banking experience for the user, Bank Jago focuses on integrating banking into the user's life context. This confirms that Bank Jago's transformation from Bank Artos was not merely a digitization of services, but a fundamental shift toward a Savage Generation 5 networked organization that competes on connectivity rather than just product features.
+
+\section{Conclusion}
+
+The transformation of Bank Artos into Bank Jago is a definitive case study in the digitization of emerging market finance. It demonstrates that Information Technology is not merely a support tool but the primary driver of strategic renewal.
+
+\begin{enumerate}
+	\item     Strategy: The pivot from a "Pipeline" model (Bank Artos) to a "Platform/Ecosystem" model (Bank Jago) unlocked exponential growth (from 50 thousand to 15 million customers) that was structurally impossible under the legacy model.
+	
+	\item Capabilities: The adoption of cloud-native infrastructure (Mambu/GCP) and agile organizational structures provided the speed and scalability required to execute the ecosystem strategy. This resolved the "organizational lag" that haunted Bank Artos.
+	
+	\item Value: The transformation corrected the fundamental insolvency of the legacy bank. By leveraging ecosystems to lower CAC and cloud tech to lower OpEx, Bank Jago converted a loss-making institution (BOPO 258\%) into a highly profitable and efficient digital bank (NPL 0.2\%).
+\end{enumerate}
+
+The transformation of Bank Artos into Bank Jago is a prime case study in the digitization of emerging market finance. It demonstrates that Information Technology is not merely a support tool but the primary driver of strategic renewal.
 
 % ---------- Bibliography ----------
 \bibliographystyle{IEEEtran}
