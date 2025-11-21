@@ -10,49 +10,56 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "osei2023unlocking"
+Warning--I didn't find a database entry for "alqararah2025role"
+Warning--I didn't find a database entry for "alawi2023impact"
+Warning--I didn't find a database entry for "araluze2022open"
+Warning--I didn't find a database entry for "westerman2021api"
+Warning--I didn't find a database entry for "colangelo2025global"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 9 entries,
+You've used 1 entry,
             4087 wiz_defined-function locations,
-            876 strings with 8992 characters,
-and the built_in function-call counts, 6560 in all, are:
-= -- 605
-> -- 114
-< -- 52
-+ -- 59
-- -- 20
-* -- 326
-:= -- 1075
-add.period$ -- 18
-call.type$ -- 9
-change.case$ -- 9
-chr.to.int$ -- 81
-cite$ -- 9
-duplicate$ -- 503
-empty$ -- 458
-format.name$ -- 28
-if$ -- 1500
+            834 strings with 7720 characters,
+and the built_in function-call counts, 939 in all, are:
+= -- 75
+> -- 18
+< -- 8
++ -- 9
+- -- 3
+* -- 65
+:= -- 170
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 15
+cite$ -- 1
+duplicate$ -- 57
+empty$ -- 57
+format.name$ -- 4
+if$ -- 191
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 84
-newline$ -- 52
-num.names$ -- 9
-pop$ -- 146
+int.to.str$ -- 1
+missing$ -- 10
+newline$ -- 28
+num.names$ -- 1
+pop$ -- 17
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 532
+skip$ -- 64
 stack$ -- 0
-substring$ -- 235
-swap$ -- 424
-text.length$ -- 25
+substring$ -- 35
+swap$ -- 51
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 9
+type$ -- 1
 warning$ -- 0
-while$ -- 29
-width$ -- 10
-write$ -- 122
+while$ -- 5
+width$ -- 2
+write$ -- 36
+(There were 6 warnings)
