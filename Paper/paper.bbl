@@ -7,7 +7,8 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -22,19 +23,53 @@
 
 \bibitem{lumbantobing2025evolving}
 \BIBentryALTinterwordspacing
-C.~B. Lumbantobing and M.~S. Perdhana, ``Evolving marketing strategies of {BRI}: Digital transformation insights (2014-2024),'' \emph{Arthatama: Journal of Business Management and Accounting}, vol.~9, no.~1, pp. 113--122, 2025. [Online]. Available: \url{https://lifescifi.com/journal/index.php/art/article/view/652}
+C.~B. Lumbantobing and M.~S. Perdhana, ``Evolving marketing strategies of
+  {BRI}: Digital transformation insights (2014-2024),'' \emph{Arthatama:
+  Journal of Business Management and Accounting}, vol.~9, no.~1, pp. 113--122,
+  2025. [Online]. Available:
+  \url{https://lifescifi.com/journal/index.php/art/article/view/652}
 \BIBentrySTDinterwordspacing
 
 \bibitem{pertiwi2024role}
-R.~M. Pertiwi and F.~Indriani, ``The role of digital technology in enhancing business productivity in indonesia: A study on {Bank Rakyat Indonesia},'' \emph{Research Horizon}, vol.~4, no.~6, pp. 43--52, Dec 2024.
+R.~M. Pertiwi and F.~Indriani, ``The role of digital technology in enhancing
+  business productivity in indonesia: A study on {Bank Rakyat Indonesia},''
+  \emph{Research Horizon}, vol.~4, no.~6, pp. 43--52, Dec 2024.
 
 \bibitem{mulyana2024key}
-R.~Mulyana, L.~Rusu, and E.~Perjons, ``Key ambidextrous {IT} governance mechanisms for successful digital transformation: A case study of {Bank Rakyat Indonesia} ({BRI}),'' \emph{Digital Business}, vol.~4, no.~2, p. 100083, 2024.
+R.~Mulyana, L.~Rusu, and E.~Perjons, ``Key ambidextrous {IT} governance
+  mechanisms for successful digital transformation: A case study of {Bank
+  Rakyat Indonesia} ({BRI}),'' \emph{Digital Business}, vol.~4, no.~2, p.
+  100083, 2024.
 
 \bibitem{osei2023unlocking}
-L.~K. Osei, Y.~Cherkasova, and K.~M. Oware, ``Unlocking the full potential of digital transformation in banking: a bibliometric review and emerging trend,'' \emph{Future Business Journal}, vol.~9, no.~1, p.~30, 2023.
+L.~K. Osei, Y.~Cherkasova, and K.~M. Oware, ``Unlocking the full potential of
+  digital transformation in banking: a bibliometric review and emerging
+  trend,'' \emph{Future Business Journal}, vol.~9, no.~1, p.~30, 2023.
 
 \bibitem{alqararah2025role}
-E.~Ali~Alqararah, M.~Shehadeh, and H.~Yaseen, ``The role of digital transformation capabilities in improving banking performance in jordanian commercial banks,'' \emph{Journal of Risk and Financial Management}, vol.~18, no.~4, p. 196, 2025.
+E.~Ali~Alqararah, M.~Shehadeh, and H.~Yaseen, ``The role of digital
+  transformation capabilities in improving banking performance in jordanian
+  commercial banks,'' \emph{Journal of Risk and Financial Management}, vol.~18,
+  no.~4, p. 196, 2025.
+
+\bibitem{alawi2023impact}
+A.~A. Alawi, ``The impact of digital transformation on the performance of
+  banking sector,'' \emph{International Journal of Data and Network Science},
+  vol.~7, no.~1, pp. 401--408, 2023.
+
+\bibitem{araluze2022open}
+G.~K. Briones~de Araluze and N.~Cassinello~Plaza, ``Open banking: A
+  bibliometric analysis-driven definition,'' \emph{PLoS One}, vol.~17, no.~10,
+  p. e0275496, 2022.
+
+\bibitem{westerman2021api}
+M.~Westerman \emph{et~al.}, ``The {API} economy: How {APIs} are driving digital
+  transformation,'' MIT Center for Information Systems Research (CISR),
+  Briefing~2, 2021.
+
+\bibitem{colangelo2025global}
+C.~G. Colangelo and R.~Khandelwal, ``The global open banking landscape and its
+  rationales,'' \emph{Journal of Financial Regulation}, vol.~11, no.~1, pp.
+  1--30, 2025.
 
 \end{thebibliography}
