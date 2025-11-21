@@ -24,7 +24,7 @@
 \thanks{Identify applicable funding agency here. If none, delete this.}
 }
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Samuel Mualatua Jeremy N}
+\author{\IEEEauthorblockN{1\textsuperscript{st} Jon Felix Germinian}
 	\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 		\textit{name of organization (of Aff.)}\\
 		City, Country \\
@@ -42,7 +42,7 @@
 		City, Country \\
 		email address or ORCID}
 	\and
-	\IEEEauthorblockN{4\textsuperscript{th} Jon Felix Germinian}
+	\IEEEauthorblockN{4\textsuperscript{th} Samuel Mualatua Jeremy N}
 	\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 		\textit{name of organization (of Aff.)}\\
 		City, Country \\
@@ -96,7 +96,7 @@ For traditional banks, digital transformation is an essential journey to stay co
 
 \subsection{The Ecosystem Driver and Embedded Finance}
 
-Complementing \cite{Applegate2009}, this research integrates the concept of Embedded Finance and the Ecosystem Driver model described by \cite{Weill2018}. In this model, banks no longer act as standalone destinations but embed their financial services (payments, lending, savings) directly into the customer’s daily digital activities (e.g., ride-hailing, e-commerce).  
+Complementing \cite{Applegate2009}, this research intemegrates the concept of Embedded Finance and the Ecosystem Driver model described by \cite{Weill2018}. In this model, banks no longer act as standalone destinations but embed their financial services (payments, lending, savings) directly into the customer’s daily digital activities (e.g., ride-hailing, e-commerce).  
 
 This aligns with the shift from "Pipeline" business models (linear value creation) to "Platform" business models (networked value creation). Research by \cite{Linggadjaya2022DigitalTransformation} specifically on Bank Jago highlights that digital transformation requires a "digital culture" and "collaboration" capabilities, which allows the bank to leverage external data for credit scoring, a key differentiator from conventional models.   
 
@@ -126,7 +126,7 @@ This aligns with the shift from "Pipeline" business models (linear value creatio
 
 \subsection{Research Design}
 
-This study employs a qualitative descriptive research design using a single-case study approach. The case study method is selected because it allows for an in-depth investigation of a contemporary phenomenon (digital banking transformation) within its real-life context of Bank Jago. This approach is particularly suitable for answering "how" and "why" of IT changes the business model of Bank Jago. 
+This study uses a single-case study methodology with a qualitative descriptive research design. The case study approach was chosen because it enables a thorough examination of the transformation of digital banking in the actual setting of Bank Jago. This method works especially well for addressing the "how" and "why" of how IT alters Bank Jago's business strategy. 
 
 \subsection{Data Collection}
 
@@ -151,7 +151,130 @@ The collected data was analyzed using content analysis and comparative analysis 
 	
 	\item Capability Assessment: Mapping the shift in IT infrastructure (Legacy Core vs. Cloud Native) and Organizational Structure (Functional vs. Agile Squads).
 	
-	\item Economic Logic Evaluation: Comparing key financial ratios—specifically Cost-to-Income Ratio (CIR), Net Interest Margin (NIM), and Customer Acquisition Cost (CAC)—to determine the economic impact of the business model change.
+	\item Economic Logic Evaluation: Comparing key financial ratios such as Cost-to-Income Ratio (CIR), Net Interest Margin (NIM), and Customer Acquisition Cost (CAC) to determine the economic impact of the business model change.
+\end{enumerate}
+
+\section{Discussion and Analysis}
+
+\subsection{Legacy state of Bank Artos}
+
+For the majority of its existence, Bank Artos operated as a traditional commercial bank focused on the Bandung and Jakarta areas. Its business model was a classic "Pipeline" structure: it gathered deposits from a small customer base and channeled them into loans. This model relies heavily on physical branches and personal relationships, which naturally limits scalability \cite{Haryanto2022}.
+
+By 2018, the limitations of this strategy were evident. The macro-economic environment in Indonesia was shifting towards digital adoption, yet Bank Artos remained tethered to its traditional roots. The bank's annual reports \cite{jago2018annual} from this period revealed a defensive strategy focused on survival rather than growth. The bank was classified as BUKU I (the lowest capital category), which legally restricted the range of products and services it could offer, further hampering its ability to compete with larger BUKU III and IV banks.
+
+The most damning metric for Bank Artos was its Operating Expenses to Operating Income (BOPO) ratio. A BOPO ratio above 100\% indicates that a bank spends more to operate than it earns.
+
+In 2018, Bank Artos recorded a BOPO of 118.02\%.  By 2019, this deteriorated further to 258.09\%. This indicates that for every 1 Rupiah earned, the bank was spending nearly 2.6 Rupiah. Full metric Bank Artos condition can be seen in Table \ref{tab:financial-decomp-artos}
+
+\begin{table}[ht]
+	\centering
+	\caption{Financial Decomposition of Bank Artos (Pre-Transformation)}
+	\label{tab:financial-decomp-artos}
+	\begin{tabular}{|l|c|c|c|}
+		\hline
+		\textbf{Metric} & \textbf{2017} \cite{jago2017annual} & \textbf{2018} \cite{jago2018annual} & \textbf{2019} \cite{jago2019annual} \\ 
+		\hline
+		Net Profit/Loss (Loss) & (IDR 10.2 B) & — & (IDR 165 B) \\ \hline
+		BOPO & 113.70\% & 118.02\% & 258.09\% \\ \hline
+		NPL (Net) & Low & 4.49\% & 0.05\%* \\ \hline
+		LDR & 76.74\% & 73.42\% & 52.80\% \\ \hline
+		NIM & 4.84\% & 4.87\% & 2.05\% \\ \hline
+	\end{tabular}
+\end{table}
+
+ 
+
+\subsection{Designing Bank Jago}
+
+The transformation began in earnest with the acquisition of Bank Artos in 2019 by PT Metamorfosis Ekosistem Indonesia (MEI) and Wealth Track Technology (WTT).
+
+The new management introduced a "Life-Centric" philosophy, rejecting the traditional bank-centric view of the world. Jerry Ng, drawing on his experience transforming BTPN, posited that in the digital era, banking is a secondary activity as people do not wake up wanting to bank. People want to eat, travel, shop, or build a home. Therefore, banking services must recede into the background, becoming enablers of these primary life activities.   
+
+Bank Jago’s strategy is built on the premise that building a standalone digital bank is expensive and risky due to high Customer Acquisition Costs (CAC). Instead, Jago adopted a partnership-heavy model. The strategic alliance with Gojek (via GoPay) and later the GoTo ecosystem (Gojek, Tokopedia, GoTo Financial) became the cornerstone of this strategy.
+
+By integrating deeply with Gojek, Jago gained access to millions of active users who were already transacting digitally but might lack a full bank account. This created a "Customer-Pull" dynamic: users were drawn to Jago not because of ad spend, but because it offered tangible utility within the apps they already used (e.g., no top-up fees for GoPay, seamless payments for GoFood). This structural advantage was solidified when Gojek (through GoPay) acquired a significant stake (about 22\%) in Bank Jago, aligning the incentives of the platform and the bank \cite{Haryanto2022}.
+
+\subsection{Technological Changes}
+
+In a decisive break from Indonesian banking tradition, Bank Jago became the first local bank to adopt a fully cloud-native core banking system. The bank selected Mambu as its SaaS (Software-as-a-Service) core banking engine and hosted it on the Google Cloud Platform (GCP) \cite{Mambu2021BankJago}.
+
+This architectural choice provided three advantages over the legacy on-premise mainframes used by Bank Artos:
+
+\begin{enumerate}
+	\item Composable Architecture: Mambu allows Bank Jago to build banking products by assembling pre-built "blocks" via APIs. This means a new loan product or savings feature can be launched in weeks rather than months, a crucial capability for responding to ecosystem partner needs.  
+	
+	\item Elastic Scalability: Hosting on GCP using Google Kubernetes Engine (GKE) allows the bank’s infrastructure to auto-scale. During massive e-commerce events like "Harbolnas" (12.12 sales) on Tokopedia, transaction volumes can spike by orders of magnitude. A traditional legacy system would likely crash or require expensive over-provisioning. Jago’s cloud infrastructure expands automatically to handle the load and contracts afterwards, optimizing costs.  
+	
+	\item Cost Efficiency (OpEx vs. CapEx): By avoiding the purchase of physical data centers and servers, Jago shifted its cost structure from heavy Capital Expenditure to variable Operational Expenditure. This aligns costs with revenue. The bank pays for computing power only as it acquires customers, preventing the "cash burn" trap.   
+\end{enumerate}
+
+To execute the embedded finance strategy, Jago built a robust API (Application Programming Interface) layer. This allows external partners like Bibit and Gojek to "call" banking functions securely \cite{BankJago2021GoPayGojek}. For example, when a user buys a mutual fund on Bibit using Jago funds, Bibit’s app communicates directly with Jago’s core via API to execute the debit in real-time.  
+
+bank Jago also made an imporvement in it's security. Bank Jago implemented rigorous security standards, achieving ISO/IEC 27001:2013 certification for Information Security Management Systems. 
+
+\subsection{Organizational Changes}
+
+Bank Artos operated with a \cite{Savage1996} Generation 2/3 hierarchy—rigid, siloed, and slow. To support its digital ambitions, Bank Jago had to engineer a \cite{Savage1996} Generation 5 organization: networked, agile, and team-centric.
+
+
+Bank Jago abandoned the traditional departmental structure (IT Dept, Marketing Dept, Product Dept) in favor of the "Spotify Model" \cite{jago2022integrated, jago2023integrated}. The workforce is organized into cross-functional "Squads," each focusing on a specific customer journey or product (e.g., the "Onboarding Squad" or "Investment Squad"). These squads are grouped into "Tribes". 
+
+In this model, a squad contains all the necessary expertise: a developer, a product owner, a risk officer, and a compliance specialist all sitting together. This eliminates the "handover" delays typical of banks where a product team writes a spec and hands it over to IT. Squads have the autonomy to make decisions quickly.
+
+\subsection{IT Impact Analysis}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{it_impact_bank_jago.jpg}
+	\caption{IT Impact Map of Bank Jago}
+	\label{fig:it_impact_bank_jago}
+\end{figure}
+
+The transformation of Bank Jago can be understood as a staged progression across the four quadrants of the IT Impact Map, beginning from its origins as Bank Artos, a conventional bank operating with minimal digital capability from 1992 to 2019 as shown in \ref{fig:it_impact_bank_jago}. This period reflects an Incremental Improvement stage in which technology played only a supportive, operational role. A fundamental shift occurred after the acquisition and rebranding, when Bank Jago began strategic investments in IT infrastructure and digital capability during 2019–2020, marking the transition into Business Process Reengineering \cite{Linggadjaya2022DigitalTransformation}. In this phase, the bank redesigned its internal processes by adopting cloud-native systems, microservices architecture, and standardized open APIs, thereby establishing a technological foundation that enabled modularity, scalability, and rapid innovation \cite{Khuan2022Competitiveness}.
+
+With this technological backbone in place, Bank Jago advanced into the Emerging Opportunity quadrant by entering digital ecosystems and embedding its financial services within partner platforms. Its collaboration with major ecosystem players, including the GoTo group, significantly expanded its reach and accelerated customer acquisition through embedded finance models, proving that the bank’s digital architecture was capable of supporting new business opportunities and cross-platform integrations \cite{Linggadjaya2022DigitalTransformation}. This ecosystem-driven growth ultimately paved the way for Business Transformation, manifested through the introduction of the Life-Focused Solution (LFS). Under this strategic concept, Bank Jago reconceptualized its value proposition from offering banking products to delivering financial experiences integrated into customers’ daily life activities, enabled by continuous digital innovation and ecosystem connectivity \cite{Linggadjaya2022DigitalTransformation}.
+Business Model of Bank Jago
+
+
+\subsection{Business Model Analysis}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{business_model_bank_Jago.jpg}
+	\caption{Business Model of Bank Jago}
+	\label{fig:business_model_jago}
+\end{figure}
+
+The evolution of Bank Jago’s business model can be mapped across the four quadrants of the product–market expansion grid as shown in \ref{fig:business_model_jago} , illustrating how the bank transitioned from a conventional institution into a digitally native financial services provider. In the Product–Market Enhancement quadrant, Bank Jago inherited the legacy position of Bank Artos, which operated as a traditional bank from 1992 to 2019 with a limited digital footprint and a narrow market reach. The acquisition and subsequent rebranding created the foundation for improving existing services while retaining the bank’s initial customer segments \cite{Linggadjaya2022DigitalTransformation}. Building on this base, Jago introduced Smart Pockets and Locked Pockets beginning in 2020, representing the Product Expansion quadrant. These innovations added new digital features to support personal financial management while continuing to serve its existing market. Such features were enabled by the bank’s redesigned backend systems and reflect the application of modular, API-driven architecture \cite{Khuan2022Competitiveness}.
+
+The deployment of an Open API ecosystem and microservices architecture from 2020 onward marked a movement into the Market Expansion quadrant. This architectural shift allowed Bank Jago to broaden its reach to previously untapped digital customer segments by enabling seamless third-party integrations and positioning the bank as an interoperable financial service provider embedded across multiple digital channels \cite{Khuan2022Competitiveness}. Finally, the bank’s strategic partnership with the GoTo ecosystem beginning in 2021 pushed Jago into the Business Exploration quadrant. Through embedded finance integration with platforms such as Gojek, Tokopedia, and GoPay, Bank Jago expanded both its product use cases and market scope simultaneously, enabling new forms of digital engagement and accelerating customer acquisition through ecosystem-driven financial experiences \cite{Linggadjaya2022DigitalTransformation}.
+
+\subsection{Comparative Industry Analysis}
+
+To fully understand Bank Jago’s position, it must be benchmarked against its  competitors in the Indonesian digital banking market.
+
+\subsubsection{SeaBank}
+
+SeaBank, owned by Sea Group (Shopee), is Jago’s fiercest competitor. Like Jago, it was born from the acquisition of a small bank (Bank BKE).
+
+\begin{enumerate}
+	\item Strategy: SeaBank employs a "High-Yield" strategy, offering aggressive interest rates on daily deposits (often topping the market charts) to attract users rapidly. It leverages the massive transaction volume of Shopee for payments and loans.  
+	
+	\item Performance: SeaBank achieved profitability faster than Jago, recording a net profit of IDR 379 billion in 2024. However, its NPL ratios have historically been higher (ranging from 1.7\% to 2.0\%) compared to Jago’s 0.2\%.  
+	
+	\item Contrast: Jago focuses on "sustainable low-cost funds" (CASA) through transactional utility (Gojek integration), whereas SeaBank relies more on "expensive funds" attracted by high interest rates. Jago’s strategy is arguably more sustainable in a low-interest-rate environment, while SeaBank’s is more sensitive to rate changes.
+\end{enumerate}
+
+\subsubsection{Jenius}
+
+Jenius was the first digital bank in Indonesia, launching in 2016 within BTPN.
+
+\begin{enumerate}
+	\item Strategy: Jenius launched as a standalone lifestyle banking app. It created the category and educated the market.
+	
+	\item Performance: Despite its head start, Jenius had ~5.9 million users in 2024 , significantly fewer than Jago’s 15.3 million.  
+	
+	\item Contrast: Jenius’s slower growth highlights the power of the "Ecosystem Driver" model. Jago grew faster by being inside Gojek than Jenius did by marketing a standalone app. Additionally, Jenius has struggled with technical stability and high NPLs in its "Flexi Cash" product compared to Jago’s prudent partnership lending.   
 \end{enumerate}
 
 % ---------- Bibliography ----------
