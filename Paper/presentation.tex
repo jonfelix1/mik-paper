@@ -13,6 +13,9 @@
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.17}
 
+\usepackage{tabularx}  % For auto-width columns
+\usepackage{ragged2e}  % For better text wrapping
+
 % Title Information
 \title[Bank Artos to Bank Jago]{Business Model Transformation of \\ Bank Artos to Bank Jago}
 \subtitle{From Legacy Pipeline to Digital Ecosystem}
@@ -204,7 +207,58 @@
 	\vspace{0.2cm}
 \end{frame}
 
-% --- Slide 9: Financial Results ---
+\begin{frame}{Competitor: Bank Jenius}
+	
+	\centering
+	% Make sure "it_impact_bank_jago.jpg" is in the folder
+	\includegraphics[width=0.75\linewidth]{business_model_jenius.jpg}
+	
+	\vspace{0.2cm}
+\end{frame}
+
+\begin{frame}{Competitor: KakaoBank}
+	
+	\centering
+	% Make sure "it_impact_bank_jago.jpg" is in the folder
+	\includegraphics[width=0.75\linewidth]{business_model_kakao.jpg}
+	
+	\vspace{0.2cm}
+\end{frame}
+
+\begin{frame}{Strategic Comparison to Competitors}
+	% Adjust font size to fit content comfortably
+	\small 
+	% Increase row height for readability
+	\renewcommand{\arraystretch}{1.5} 
+	
+	\begin{tabularx}{\textwidth}{@{} l >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X @{}}
+		\toprule
+		\textbf{Dimension} & \textbf{Bank Jago} & \textbf{Jenius} & \textbf{KakaoBank} \\ 
+		\midrule
+		\textbf{Origin} 
+		& Legacy Transformation (Artos) 
+		& Internal Spinoff (BTPN) 
+		& Internet-Only License \\ 
+		\textbf{Channel} 
+		& Ecosystem (Gojek/Bibit) 
+		& Standalone App 
+		& Social (KakaoTalk) \\ 
+		\textbf{Architecture} 
+		& Cloud-Native (Mambu/GCP) 
+		& Hybrid Digital Core 
+		& Mobile-First Proprietary \\ 
+		\textbf{Value Prop} 
+		& Life-Centric (Invisible) 
+		& Life-Finance Mgmt 
+		& Social \& Convenient \\ 
+		\textbf{Model} 
+		& B2B2C (Partnership) 
+		& B2C (Direct) 
+		& B2C (Platform) \\ 
+		\bottomrule
+	\end{tabularx}
+\end{frame}
+
 % --- Slide 9: Financial Results ---
 \begin{frame}{The Result: Financial Turnaround}
 	\begin{columns}
